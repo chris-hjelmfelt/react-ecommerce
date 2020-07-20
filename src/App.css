@@ -26,3 +26,9 @@ body {
 .text-bright {
   color: var(--lightBlue);
 }
+
+.logo {
+  max-width: 60%;
+  padding: 0px !important;
+  margin: 0px !important;
+}

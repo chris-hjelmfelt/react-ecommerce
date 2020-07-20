@@ -1,11 +1,15 @@
 # react-ecommerce  
-An e-commerce site made with ReactJS  
+An e-commerce site made with ReactJS 
+
   
 with help from a tutorial at https://www.youtube.com/watch?v=wPQ1-33teR4
+currently: 1:19:40
 
 ### Libraries used:    
+react-router-dom  
+react-icons   
 bootstrap  
-react-icons  
+styled components  
 
 ### Usage:  
 `> npm start`
