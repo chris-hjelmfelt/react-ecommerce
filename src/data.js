@@ -1,7 +1,3 @@
-/* 
-https://www.iconfinder.com/icons/1243689/call_phone_icon
-Creative Commons (Attribution 3.0 Unported);
-https://www.iconfinder.com/Makoto_msk */
 
 export const storeProducts = [
   {
@@ -11,7 +7,7 @@ export const storeProducts = [
     price: 10,
     company: "GOOGLE",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -23,7 +19,7 @@ export const storeProducts = [
     price: 16,
     company: "SAMSUNG",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -35,7 +31,7 @@ export const storeProducts = [
     price: 8,
     company: "htc",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -47,7 +43,7 @@ export const storeProducts = [
     price: 18,
     company: "htc",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -59,7 +55,7 @@ export const storeProducts = [
     price: 24,
     company: "htc",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -71,7 +67,7 @@ export const storeProducts = [
     price: 17,
     company: "apple",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -83,7 +79,7 @@ export const storeProducts = [
     price: 30,
     company: "apple",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -95,7 +91,7 @@ export const storeProducts = [
     price: 2,
     company: "apple",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
     inCart: false,
     count: 0,
     total: 0
@@ -109,7 +105,7 @@ export const detailProduct = {
   price: 10,
   company: "google",
   info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "A mobile phone or cell phone, is a portable telephone that can make and receive calls over a radio frequency link. Mobile phones communicate with cell towers that are placed to give coverage across a telephone service area. Mobile phones also support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications such as Bluetooth, business applications, video games and photography.",
   inCart: false,
   count: 0,
   total: 0
