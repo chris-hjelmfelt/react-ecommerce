@@ -1,9 +1,14 @@
 # react-ecommerce  
 An e-commerce site made with ReactJS 
 
+### Features
+* product list  
+* product details
+* shopping cart 
+
   
-with help from a tutorial at https://www.youtube.com/watch?v=wPQ1-33teR4
-currently: 4:06:16
+created from a tutorial at https://www.youtube.com/watch?v=wPQ1-33teR4
+currently: 4:56:41
 
 ### Libraries used:    
 react-router-dom  
@@ -12,6 +17,9 @@ bootstrap
 styled components  
 
 ### Usage:  
+You must have NodeJS installed on your system for ReactJS to run.  
+Once you have cloned the project to your local computer run:  
+`> npm install`  (to install some dependency files)
 `> npm start`
 
 ----
