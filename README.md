@@ -3,7 +3,7 @@ An e-commerce site made with ReactJS
 
   
 with help from a tutorial at https://www.youtube.com/watch?v=wPQ1-33teR4
-currently: 3:25:05
+currently: 4:06:16
 
 ### Libraries used:    
 react-router-dom  
