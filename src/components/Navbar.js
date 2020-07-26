@@ -6,23 +6,51 @@ import styled from 'styled-components';
 import {ButtonContainer} from './Button'
 
 export default class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true,
+    };
+  }
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed,
+    });
+  }
   render() {
+    const collapsed = this.state.collapsed;
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
     return (
-      <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+      <NavWrapper className="navbar navbar-expand-lg navbar-dark px-sm-5">
         <Link to="/">
           <img src={logo} alt="logo" className="navbar-brand logo" />
         </Link>
-        <ul className="navbar-nav align-items-center">
-          <li className="nav-item ml-5">
-            <Link to="/" className="nav-link">Products</Link>
-          </li>
-        </ul> 
+        <button onClick={this.toggleNavbar} className={`${classTwo}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon" />
+        </button>        
+        
+        <div className={`${classOne}`}  id="navbarResponsive">
+          <ul className="navbar-nav align-items-center">
+            <li className="nav-item ml-5">
+              <Link to="/phones" className="nav-link">Phones</Link>            
+            </li>
+            <li className="nav-item ml-5">
+              <Link to="/cases" className="nav-link">Cases</Link>            
+            </li>
+            <li className="nav-item ml-5">
+              <Link to="/accessories" className="nav-link">Accessories</Link>            
+            </li>           
+          </ul> 
+        </div> 
+
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <span className="mr-2"><FaCartPlus /></span>            
             My Cart
           </ButtonContainer>
-        </Link>               
+        </Link>                   
       </NavWrapper>
     )
   }

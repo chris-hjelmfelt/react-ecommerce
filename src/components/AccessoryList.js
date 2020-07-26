@@ -3,19 +3,19 @@ import Product from './Product';
 import Title from './Title';
 import {ProductConsumer} from '../context';
 
-export default class ProductList extends Component {
+export default class AccessoryList extends Component {
   render() {
     return (
       <>
         <div className="py-5">
           <div className="container">
-            <Title title="smartphones" />
+            <Title title="accessories" />
             <div className="row">
               <ProductConsumer>
                 {value => {
-                  var phones = value.products.filter(product => product.tags.includes("phone"));
-                  console.log(phones);
-                  return phones.map(product => {
+                  var accessories = value.products.filter(product => product.tags.includes("accessory"));
+                  console.log(accessories);
+                  return accessories.map(product => {
                     return <Product key={product.id} product={product} />;
                   })
                 }}
