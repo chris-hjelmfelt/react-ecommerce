@@ -2,13 +2,13 @@
 An e-commerce site made with ReactJS 
 
 ### Features
-* product list  
+* pages of various products  
+* search bar
 * product details
 * shopping cart 
 
   
-created from a tutorial at https://www.youtube.com/watch?v=wPQ1-33teR4
-currently: 5:46:30
+modified from a tutorial at https://www.youtube.com/watch?v=wPQ1-33teR4
 
 ### Libraries used:    
 react-router-dom  

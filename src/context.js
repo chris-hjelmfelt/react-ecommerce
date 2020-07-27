@@ -14,7 +14,9 @@ class ProductProvider extends Component {
     modalProduct: detailProduct,
     cartSubTotal: 0,
     cartTax: 0,
-    cartTotal: 0
+    cartTotal: 0,
+    searchString: "",
+    searchProducts: []
   };
 
   componentDidMount() {
@@ -134,7 +136,7 @@ class ProductProvider extends Component {
     });
   };
 
-  clearCart = id => {    
+  clearCart = () => {    
     this.setState(() => {
       return{cart: []}
     },() => {
@@ -155,7 +157,31 @@ class ProductProvider extends Component {
         cartTax: tax,
         cartTotal: total
       }
-    })
+    });
+  };
+  
+  updateSearchItems = str => {
+    this.setState(() => {
+      return {searchString: str};   
+    },() => {
+      this.searchItems();
+    });
+  };
+
+  searchItems = () => {    
+    let p = [...this.state.products];
+    for (let i=1; i < p.length; i++) {
+      let item = {...p[i]};
+      item.title = item.title.toLowerCase();
+      p[i] = item;
+    }
+    const titleResult = p.filter(p => p.title.includes(this.state.searchString.toLowerCase()));
+    const tagsResult = p.filter(p => p.tags.includes(this.state.searchString.toLowerCase()));
+    const fullResult = tagsResult.concat(titleResult);
+    const finalResult = [...new Set(fullResult)];  // remove duplicates
+    this.setState(() => {
+      return {searchProducts: finalResult};   
+    });
   };
 
   render() {
@@ -169,7 +195,8 @@ class ProductProvider extends Component {
         increment: this.increment,
         decrement: this.decrement,
         removeItem: this.removeItem,
-        clearCart: this.clearCart
+        clearCart: this.clearCart,
+        updateSearchItems: this.updateSearchItems
       }}>
         {this.props.children}
       </ProductContext.Provider>
